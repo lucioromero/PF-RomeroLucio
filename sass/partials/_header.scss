@@ -1,0 +1,15 @@
+@media screen and (min-width: 992px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+
+.navbar-nav{
+    a{
+        color: #333;
+        &:hover{
+            color: grey;
+            text-decoration: overline;
+        }
+    }
+}

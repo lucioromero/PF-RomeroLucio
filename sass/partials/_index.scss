@@ -1,0 +1,16 @@
+body{
+    .caja{
+        margin-top: 150px;
+    }
+    .btn{
+        background-color: #2C497F;
+        font-size: 20px;
+        color: white;
+        margin-top: 20px;
+        &:hover{
+            background-color: #BAD29F;
+            transition: 0.3s;
+            color: white;
+        }
+    }
+}

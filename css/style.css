@@ -1,0 +1,135 @@
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.navbar-nav a {
+  color: #333;
+}
+.navbar-nav a:hover {
+  color: grey;
+  text-decoration: overline;
+}
+
+#titulo {
+  color: grey;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+#titulo h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+#titulo h2 {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 0px;
+  color: #BAD29F;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+body .caja {
+  margin-top: 150px;
+}
+body .btn {
+  background-color: #2C497F;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+body .btn:hover {
+  background-color: #BAD29F;
+  transition: 0.3s;
+  color: white;
+}
+
+footer {
+  background-color: grey;
+  height: 60px;
+  margin-top: 120px;
+}
+footer p {
+  color: white;
+  padding: 15px;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario label {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .formulario {
+    flex-direction: column;
+  }
+}
+body {
+  color: grey;
+  text-align: center;
+}
+
+.descripcion {
+  padding: 20px;
+  background-color: #2C497F;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fondo_gris {
+  background-color: rgb(200, 196, 196);
+  color: white;
+}
+
+.padding {
+  padding: 40px 80px 40px 80px;
+}
+
+img {
+  width: 700px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.pregunta {
+  background-color: #BAD29F;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.redes {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.hogar {
+  background-image: url(../images/hogar_2.jpg);
+  border-radius: 6px;
+  height: 450px;
+  width: 550px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .pregunta {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
